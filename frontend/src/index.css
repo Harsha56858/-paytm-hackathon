@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #090b10;
+  color: #f1f3f9;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+}
+
+/* =================================
+   AI SALES CARE - BLUE & WHITE THEME
+================================= */
+
+body {
+  background: #f4f7fc;
+  color: #142947;
+}
+
+/* Main sidebar */
+aside {
+  background: #10264a !important;
+  color: #ffffff !important;
+  border-color: #233e67 !important;
+}
+
+/* Sidebar text */
+aside .text-gray-500,
+aside .text-gray-600 {
+  color: #a9bbd5 !important;
+}
+
+aside .text-gray-400 {
+  color: #d0dced !important;
+}
+
+/* Sidebar workspace selector */
+aside button:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Main workspace */
+main {
+  background: #f4f7fc;
+  color: #142947;
+}
+
+/* Top navigation */
+main header {
+  background: #ffffff;
+  border-color: #e3eaf4;
+}
+
+/* Main content cards */
+main [class*="bg-[#10131b]"] {
+  background: #ffffff !important;
+  border-color: #e3eaf4 !important;
+  color: #142947 !important;
+  box-shadow: 0 2px 8px rgba(25, 55, 100, 0.035);
+}
+
+/* Nested cards */
+main [class*="bg-white/[0.02]"] {
+  background: #f7f9fd !important;
+  border-color: #e5ebf4 !important;
+}
+
+/* Main content typography */
+main .text-white {
+  color: #142947 !important;
+}
+
+main .text-gray-500 {
+  color: #687b96 !important;
+}
+
+main .text-gray-600 {
+  color: #8493a8 !important;
+}
+
+main .text-gray-400 {
+  color: #536985 !important;
+}
+
+/* Blue highlights */
+main .text-blue-400 {
+  color: #2563eb !important;
+}
+
+main .text-blue-500 {
+  color: #2563eb !important;
+}
+
+/* Primary buttons */
+main .bg-blue-600 {
+  background: #2563eb;
+}
+
+main .bg-blue-600:hover {
+  background: #1d4ed8;
+}
+
+/* Main scrollbar */
+main::-webkit-scrollbar,
+aside::-webkit-scrollbar {
+  width: 6px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #c5d2e4;
+  border-radius: 10px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: #385477;
+  border-radius: 10px;
+}
+
+/* Smooth scrolling */
+main,
+aside {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars without disabling scrolling */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
